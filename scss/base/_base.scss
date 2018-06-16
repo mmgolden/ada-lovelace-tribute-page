@@ -1,0 +1,20 @@
+/******************* General *******************/
+body {
+    box-sizing: border-box;
+    font-family: $primary-font;
+    font-size: 16px;
+    color: $primary-font-color;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font;
+    margin-top: 0;
+}
+p {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+figure {
+    margin: 0;
+}

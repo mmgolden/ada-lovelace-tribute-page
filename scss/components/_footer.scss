@@ -1,0 +1,13 @@
+/******************* Timeline *******************/
+footer {
+    background: $footer-background-color;
+    text-align: center;
+    padding: 40px 0;
+    a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

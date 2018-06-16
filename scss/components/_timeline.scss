@@ -1,0 +1,13 @@
+/******************* Timeline *******************/
+#timeline-1 {
+    @include timeline-item($light-gray-color, $primary-font-color);
+}
+#timeline-2 {
+    @include timeline-item($medium-gray-color, $primary-font-color);
+}
+#timeline-3 {
+    @include timeline-item(rgba(46, 86, 161, 0.85), #ffffff);
+}
+#timeline-4 {
+    @include timeline-item($primary-accent-color, #ffffff);
+}

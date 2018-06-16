@@ -1,0 +1,22 @@
+// Mixins
+@mixin timeline-item($background-color, $font-color) {
+    background: $background-color;
+    padding: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h3 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: $font-color;
+    }
+    p {
+        font-weight: $semi-bold-font;
+        font-size: 1rem;
+        line-height: 1.375rem;
+        color: $font-color;
+    }
+    @media screen and (min-width:768px) {
+        padding: 50px 30px;
+    }
+}
